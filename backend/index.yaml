@@ -607,7 +607,7 @@
     - localai/localai-backends:latest-gpu-nvidia-cuda-12-whisper
 - !!merge <<: *whispercpp
   name: "rocm-whisper"
-  uri: "quay.io/go-skynet/local-ai-backends:latest-gpu-rocm-hipblas-whisper"
+  uri: "quay.io/go-skynet/local-ai-backends:latest-gpu-hipblas-whisper"
   mirrors:
     - localai/localai-backends:latest-gpu-rocm-hipblas-whisper
 - !!merge <<: *whispercpp
@@ -652,7 +652,7 @@
     - localai/localai-backends:master-gpu-nvidia-cuda-12-whisper
 - !!merge <<: *whispercpp
   name: "rocm-whisper-development"
-  uri: "quay.io/go-skynet/local-ai-backends:master-gpu-rocm-hipblas-whisper"
+  uri: "quay.io/go-skynet/local-ai-backends:master-gpu-hipblas-whisper"
   mirrors:
     - localai/localai-backends:master-gpu-rocm-hipblas-whisper
 - !!merge <<: *whispercpp
